@@ -1,5 +1,4 @@
 import './Contact.css'
-import {MdEmail} from 'react-icons/md'
 import {IoLogoWhatsapp} from 'react-icons/io'
 import {FaLinkedin} from 'react-icons/fa'
 
@@ -12,7 +11,6 @@ const Contact = () => {
      <div className='container contact_container'>
        <div className='contact_options'>
         <article className='contact_option'>
-          <MdEmail className='contact_icon'/>
           <h3>Email</h3>
           <h4 className='letters'>victor.interface23@gmail.com</h4>
           <a href='mailto:victor.interface23@gmail.com'>Send a message</a>
